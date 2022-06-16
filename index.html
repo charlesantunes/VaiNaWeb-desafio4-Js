@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <h1>Desafio 2 - Estruturas Lógicas e Condicionais</h1>
+        <h3 id="msg">Verificar o resultado do script no inspecionar, opção Console.</h3>
+        <figure class="naruto">
+            <img src="img/socorro.gif" alt="">
+            <figcaption>Por que minha função não retorna!</figcaption>
+        </figure>
+
+        <div class="solucao">
+            <h3 class="msgLeft">Vai Na Web</h3>
+            <h3 class="msgRight">é a solução</h3>
+        </div>
+        <h2> Prévia do resultado do Console</h2>
+        <form>            
+            <fieldset>
+                <legend>Entrada e processamento</legend>
+                <label>
+                    <p class="pergunta">//1 - crie uma função que exiba uma mensagem no console</p>
+                    <p><span class="if-else">function </span><span class="log">msg</span>( ) {</p>
+                    <p><span class="console">console</span><span class="log">.log</span>("Iniciando o desafio de função");</p>
+                    <p>}</p>
+                    <p><span class="log">msg</span>( );</p>
+                </label>
+                <label>
+                    <p class="pergunta">//2 - crie uma função que receba o seu nome como (parâmetro) e exiba no console</p>
+                    <p><span class="if-else">function </span><span class="log">myName</span>(name) {</p>
+                    <p><span class="if-else">return </span> name;</p>
+                    <p>}</p>                    
+                    <p><span class="console">console</span><span class="log">.log</span>("Meu nome é ", myName("Charles Antunes"));</p>
+                </label>
+                <label>
+                    <p class="pergunta">//3 - crie uma função que receba nome, idade, e um estilo musical preferido (parâmetros) e exiba no console</p>
+                    <p><span class="if-else">function </span><span class="log">listar</span>(nome,idade,styleMusic) {</p>
+                    <p><span class="if-else">return </span> `Sou <span class="log">${nome}</span>, tenho <span class="log">${idade}</span> anos e meu estilo musical é <span class="log">${styleMusic}</span>`;</p>
+                    <p>}</p>
+                    <p><span class="if-else">let </span>preferencia = <span class="log">listar("Charles", 18, "Rock in Roll");</span></p>
+                    <p><span class="console">console</span><span class="log">.log</span>(preferencia);</p>
+                </label>
+                <label>
+                    <p class="pergunta">//4 - crie uma função que receba um filme, uma música (parâmetros) e exiba no console</p>
+                    <p><span class="if-else">function </span><span class="log">imprimi</span>(filme, musica) {</p>
+                    <p><span class="console">console</span><span class="log">.log</span>(`Meu filme favorito é <span class="log">${filme}</span>\nMinha música favorita é <span class="log">${musica}</span>`);</p>
+                    <p>}</p>
+                    <p><span class="log">imprimi</span> ("Piratas do Vale do Silício","B.O.B.Y - System Of Down")</p>   
+                </label>
+                <label>
+                    <p class="pergunta">//*Bônus: 5 - crie uma função que retorne o triplo do número recebido no parâmetro da função</p>
+                    <p><span class="if-else">function </span><span class="log">triplo</span>(num) {</p>
+                    <p>num *= 3</p>
+                    <p><span class="if-else">return </span> num</p>
+                    <p>}</p>
+                    <p><span class="if-else">let </span>numero = <span class="log">9;</span></p>
+                    <p><span class="console">console</span><span class="log">.log</span>(`O triplo de <span class="log">${numero}</span> é ` + triplo(numero));</p>
+                </label>
+            </fieldset>
+            <fieldset class="saida">
+                <legend>Saida de dados</legend>
+                <label>
+                    <p>Iniciando o desafio de função</p>
+                    <hr>
+                </label>
+                <label>
+                    <p>Meu nome é Charles Antunes</p>
+                    <hr>
+                </label>
+                <label>
+                    <p>Sou Charles, tenho 18 anos e meu estilo musical é Rock in Roll</p>                   
+                    <hr>
+                </label>
+                <label>
+                    <p>Meu filme favorito é Piratas do Vale do Silício
+                    Minha música favorita é B.O.B.Y - System Of Down</p>
+                    <hr>
+                </label>
+                <label>
+                    <p>O triplo de 9 é 27</p>
+                    <hr>
+                </label>
+            </fieldset>
+        </form>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
