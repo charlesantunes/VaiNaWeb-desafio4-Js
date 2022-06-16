@@ -68,7 +68,8 @@ font-size: 2rem;
 }
 
 .msgLeft {
-    width: 190px;
+    border: solid 1px red;
+    width: 192px;
     position: relative;
     left: 0%;
     animation: msgLeft 4s linear infinite;
@@ -76,7 +77,7 @@ font-size: 2rem;
 @keyframes msgLeft {
 
     10%,30% {
-        left: 30.5%;
+        left: 31.5%;
         filter: hue-rotate(30deg);
     }
 
@@ -85,6 +86,7 @@ font-size: 2rem;
     }
 }
 .msgRight {
+    border: solid 1px orangered;
     width: 225px;
     position: relative;
     right: 0%;
@@ -93,7 +95,7 @@ font-size: 2rem;
 @keyframes msgRight {
 
     10%,30% {
-        right: 30.5%;
+        right: 31.5%;
         filter: hue-rotate(30deg);
     }
 
