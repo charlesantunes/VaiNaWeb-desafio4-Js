@@ -77,7 +77,7 @@ font-size: 2rem;
 @keyframes msgLeft {
 
     10%,30% {
-        left: 31.5%;
+        left: 32.5%;
         filter: hue-rotate(30deg);
     }
 
@@ -95,7 +95,7 @@ font-size: 2rem;
 @keyframes msgRight {
 
     10%,30% {
-        right: 31.5%;
+        right: 32.5%;
         filter: hue-rotate(30deg);
     }
 
