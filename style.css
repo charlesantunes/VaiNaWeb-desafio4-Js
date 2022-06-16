@@ -68,7 +68,6 @@ font-size: 2rem;
 }
 
 .msgLeft {
-    border: solid 1px red;
     width: 192px;
     position: relative;
     left: 0%;
@@ -86,7 +85,6 @@ font-size: 2rem;
     }
 }
 .msgRight {
-    border: solid 1px orangered;
     width: 225px;
     position: relative;
     right: 0%;
