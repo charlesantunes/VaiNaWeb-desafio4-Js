@@ -26,8 +26,8 @@ imprimi("Piratas do Vale do Silício","B.O.B.Y - System Of Down");
 
 //*Bônus: 5 - crie uma função que retorne o triplo do número recebido no parâmetro da função
 function triplo(num) {
-    num *= 3
-    return num
+    num *= 3;
+    return num;
 }
 let numero = 9;
 console.log(`O triplo de ${numero} é ` + triplo(numero));
